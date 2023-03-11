@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/juduldetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Penginapan"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"/>
+    <TextView
+        android:id="@+id/alamatdetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:textSize="16sp"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:inputType="text"
+        android:layout_below="@id/juduldetail"/>
+    <TextView
+        android:id="@+id/kamardetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Kamar"
+        android:textSize="16sp"
+        android:layout_below="@+id/alamatdetail"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:inputType="number"/>
+    <TextView
+        android:id="@+id/hargadetail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:textSize="16sp"
+        android:layout_below="@+id/kamardetail"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/bayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Upload Bukti Bayar"
+        android:layout_below="@id/hargadetail"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "435139876548",
+    "firebase_url": "https://srqstaycation-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "srqstaycation",
+    "storage_bucket": "srqstaycation.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:435139876548:android:66b4728b8e2b50fc161b91",
+        "android_client_info": {
+          "package_name": "com.juan.sqrstaycation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "435139876548-5e4njtdnqsrnh290vi80qk8c2jariitc.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBgTLWrFsMv_UKlHvm60tJ6V1vz0QL1YpE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "435139876548-5e4njtdnqsrnh290vi80qk8c2jariitc.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

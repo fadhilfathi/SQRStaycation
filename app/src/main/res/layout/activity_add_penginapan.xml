@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <EditText
+        android:id="@+id/judul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Judul Penginapan"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"/>
+    <EditText
+        android:id="@+id/Alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Alamat"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:inputType="text"
+        android:layout_below="@id/judul"/>
+    <EditText
+        android:id="@+id/Kamar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jumlah Kamar"
+        android:layout_below="@+id/Alamat"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:inputType="number"/>
+    <EditText
+        android:id="@+id/harga"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Harga"
+        android:layout_below="@+id/Kamar"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:inputType="number"/>
+    <Button
+        android:id="@+id/tambah"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tambahkan"
+        android:layout_below="@id/harga"
+        android:layout_marginHorizontal="36dp"
+        android:layout_marginVertical="8dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
